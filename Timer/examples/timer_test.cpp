@@ -1,4 +1,4 @@
-#import "Timer.h"
+#import "../Timer.h"
 
 /*
   Timer(long ms);
@@ -72,7 +72,6 @@ void t_setup() {
 
 	// Set time to 8:29:00am 14 May 2014
 	// setTime(8,29,0,14,5,14);
-	// Fails when time set -- need to investigate
 
 	delay(5000);
 	creationTests();

@@ -1,9 +1,3 @@
-// Only modify this file to include
-// - function definitions (prototypes)
-// - include files
-// - extern variable definitions
-// In the appropriate section
-
 // An asychronous alarm timer, based on an existing clock. May be reset and reused.
 
 #ifndef _Timer_H_
@@ -30,7 +24,6 @@ public:
   // Construct an alarm for a specified time
   // Timer(time_t t);
 
-  // char* toString() const;
   void print() const;
   
   // Extend the alarm by the given time interval in ms
@@ -50,8 +43,5 @@ public:
 } // extern "C"
 #endif
 
-//add your function definitions for the project Timer here
 
-
-//Do not add code below this line
 #endif /* _Timer_H_ */
